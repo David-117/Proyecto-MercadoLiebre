@@ -1,0 +1,71 @@
+/* Form to login */
+
+:root{
+    --texto: 12px;
+    --precios: 18px;
+    --descuentos: 16px;
+    --descripciones:16px;
+    --titulares: 24px;
+    --fuente: 'Roboto';
+    --gris-fuerte:#666;
+    --gris-claro: #ebebeb;
+    --verde: #39b54a;
+    --color-amarillo:#EAC926;
+    --azul-fuerte:#03264C;
+    --azul-celeste:#1259c3;
+}
+
+.container-login {
+
+    justify-content: center;
+    text-align: center;
+    padding: 15px;
+    background-color: var(--gris-claro);
+    
+}
+
+.container-login div {
+    width: 100%;
+}
+
+.nombre-usuario {
+    padding: 15px;
+}
+
+.nombre-usuario input {
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid white;
+    padding: 5px;
+}
+
+.elegi-contraseña {
+    padding: 15px;
+}
+
+.elegi-contraseña input {
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid white;
+    padding: 5px;
+}
+
+.boton-enviar {
+    padding: 15px;
+}
+
+.boton-enviar input {
+
+   width: 100%;
+   padding: 7px;
+   border-radius: 5px;
+   background-color: var(--azul-celeste);
+   color: white;
+   font-family: var(--fuente);
+   border: 1px solid var(--azul-celeste);
+}
+
+.logo {
+    font-size: 10em;
+    margin-top: 20px;
+}
